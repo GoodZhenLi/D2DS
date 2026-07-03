@@ -100,6 +100,12 @@ Main data files include:
 
 Each directory's `dataset.py` parses these files into PyTorch Geometric `Data` objects, including atomic positions, atomic numbers/charges, cells, defect sites, graph edges, and prediction targets.
 
+## Citation
+
+If you are using the Imp2D dataset, please cite: Davidsson, J., Bertoldo, F., Thygesen, K.S. et al. Absorption versus adsorption: high-throughput computation of impurities in 2D materials. npj 2D Mater Appl 7, 26 (2023). https://doi.org/10.1038/s41699-023-00380-6
+
+If you are using the 2DMD dataset, please cite: Kazeev, N., Al-Maeeni, A.R., Romanov, I. et al. Sparse representation for machine learning the properties of defects in 2D materials. npj Comput Mater 9, 113 (2023). https://doi.org/10.1038/s41524-023-01062-z
+
 ## Notes
 
 - The code is closer to paper/research experiment scripts than to a packaged library; some paths, model choices, and training settings are hard-coded.
